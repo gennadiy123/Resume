@@ -29,12 +29,12 @@ body {
 }
 
 .main-container {
-  padding: 90px 90px;
+  padding: 80px 80px;
 }
 
 .contacts-container {
   margin: 60px 40px 0 40px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .sidebar-title {
