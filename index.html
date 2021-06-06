@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <aside class="sidebar">
-        <img class="my-photo" src="./4.jpg" alt="my photo" />
+        <img class="my-photo" src="./avatar.jpg" alt="my photo" />
 
         <div class="contacts-container">
           <h3 class="sidebar-title">Tech Skills</h3>
@@ -26,6 +26,7 @@
                 <li><span class="sidebar-text">HTML</span></li>
                 <li><span class="sidebar-text">CSS</span></li>
                 <li><span class="sidebar-text">JavaScript</span></li>
+                <li><span class="sidebar-text">TypeScript</span></li>
               </ul>
             </li>
             <li class="tech-skills-main">
@@ -34,12 +35,16 @@
                 <li><span class="sidebar-text">React.js</span></li>
                 <li><span class="sidebar-text">Redux</span></li>
                 <li><span class="sidebar-text">React Native</span></li>
+                <li><span class="sidebar-text">Gatsby.js</span></li>
               </ul>
             </li>
             <li>
               Технологии
               <ul>
                 <!-- <li><span class="sidebar-text">Node.js</span></li> -->
+                <li><span class="sidebar-text">GraphQL</span></li>
+                <li><span class="sidebar-text">REST API</span></li>
+                <li><span class="sidebar-text">Firebase</span></li>
                 <li><span class="sidebar-text">SASS</span></li>
                 <li>
                   <span class="sidebar-text">Responsive design</span>
@@ -47,6 +52,7 @@
                 <li><span class="sidebar-text">Bootstrap 4</span></li>
                 <li><span class="sidebar-text">Webpack</span></li>
                 <li><span class="sidebar-text">Git</span></li>
+                <li><span class="sidebar-text">styled-components</span></li>
               </ul>
             </li>
           </ul>
@@ -63,7 +69,13 @@
         <div class="contacts-container">
           <h3 class="sidebar-title">Language Skills</h3>
           <ul class="sidebar-span">
-            <li><span class="sidebar-text">English - intermediate</span></li>
+            <li>
+              <span class="sidebar-text"
+                >English - <br /><span class="sidebar-text-english"
+                  >Upper-Intermediate</span
+                ></span
+              >
+            </li>
             <li><span class="sidebar-text">Ukrainian - native</span></li>
             <li><span class="sidebar-text">Russian - native</span></li>
           </ul>
@@ -100,10 +112,11 @@
             <li class="project-item">
               <h4>Mobile App site</h4>
               <p class="project-description">
-                Проект по разработке мобильного приложения
+                Mobile application development project
               </p>
               <a
                 class="main-container-link"
+                target="_blank"
                 href="https://gennadiy123.github.io/aggresive_penguins/"
                 >https://gennadiy123.github.io/aggresive_penguins/</a
               >
@@ -119,10 +132,11 @@
             <li class="project-item">
               <h4>Weather App</h4>
               <p class="project-description">
-                Проект сайта, который показывает погоду по указанному городу
+                Site project that shows the weather for the specified city
               </p>
               <a
                 class="main-container-link"
+                target="_blank"
                 href="https://gennadiy123.github.io/WeatherApp/"
                 >https://gennadiy123.github.io/WeatherApp/</a
               >
@@ -136,22 +150,39 @@
               >
             </li>
             <li class="project-item">
-              <h4>KidsLike todo</h4>
+              <h4>KidHub</h4>
               <p class="project-description">
-                Сайт с заданиями по дому и наградой для детей
+                Mobile application for developing healthy habits in children
               </p>
               <a
                 class="main-container-link"
-                href="https://kids-land.netlify.app/"
-                >https://kids-land.netlify.app/</a
+                target="_blank"
+                href="https://apps.apple.com/ru/app/kidhab-kids-habit-tracker/id1550279631"
+                >https://apps.apple.com/kidhab</a
               >
-              <span class="dots"
-                >...........................................................</span
-              >
+              <span class="dots">.........</span>
               <span
                 ><b>[</b>
                 <span class="main-container-link company"
-                  >React.js, Redux, Netlify</span
+                  >React Native, TypeScript, Apollo GraphQL</span
+                >
+                <b>]</b></span
+              >
+            </li>
+            <li class="project-item">
+              <h4>KidHab Landing</h4>
+              <p class="project-description">Mobile app landing page</p>
+              <a
+                class="main-container-link"
+                target="_blank"
+                href="https://www.kid-hab.com/"
+                >https://www.kid-hab.com/</a
+              >
+              <span class="dots">.............................</span>
+              <span
+                ><b>[</b>
+                <span class="main-container-link company"
+                  >Gatsby.js, styled-components, i18next</span
                 >
                 <b>]</b></span
               >
@@ -160,6 +191,25 @@
         </div>
         <div>
           <h3 class="main-container-title">Work Experience</h3>
+          <div>
+            <h4 class="profession-title">
+              Front-End Developer <span class="company">Go IT</span>
+            </h4>
+            <span class="profession-time">
+              June 2020 - Present
+              <span class="profession-divider">|</span> Ukraine
+            </span>
+            <ul class="profession-duties">
+              <li class="profession-duties-item">
+                Developed an app using React-Redux, TypeScript, GraphQL. Created
+                admin panel for this app using React and Material-UI. Also
+                create landing-page with Gatsby.js and styled-components.
+              </li>
+              <li class="profession-duties-item">
+                Teach students and create project`s backlog for them.
+              </li>
+            </ul>
+          </div>
           <div>
             <h4 class="profession-title">
               Commercial Director <span class="company">Duke LLC</span>
@@ -177,29 +227,6 @@
               <li class="profession-duties-item">
                 Learned to run SMM and advertising campaigns on Google ads and
                 facebook.
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="profession-title">
-              Co-Founder <span class="company">Pawnshop</span>
-            </h4>
-            <span class="profession-time">
-              November 2012 - May 2014
-              <span class="profession-divider">|</span> Ukraine
-            </span>
-            <ul class="profession-duties">
-              <li class="profession-duties-item">
-                Experienced strategist, entrepreneur and startup enthusiast with
-                a passion for building businesses and challenging the status
-                quo.
-              </li>
-              <li class="profession-duties-item">
-                I had progressive experience managing employee benefits &
-                compliance, employee hiring & onboarding, performance management
-                processes. Skilled at building relationships with employees
-                across all levels of an organization. Proficient with HRIS,
-                applicant tracking and benefits management.
               </li>
             </ul>
           </div>
