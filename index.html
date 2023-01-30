@@ -15,13 +15,13 @@
   <body>
     <div class="wrapper">
       <aside class="sidebar">
-        <img class="my-photo" src="./avatar.jpg" alt="my photo" />
+        <img class="my-photo" src="./images/avatar.jpg" alt="my photo" />
 
         <div class="contacts-container">
           <h3 class="sidebar-title">Tech Skills</h3>
           <ul class="sidebar-span">
             <li class="tech-skills-main">
-              Языки
+              Languages
               <ul>
                 <li><span class="sidebar-text">HTML</span></li>
                 <li><span class="sidebar-text">CSS</span></li>
@@ -30,7 +30,7 @@
               </ul>
             </li>
             <li class="tech-skills-main">
-              Библиотеки
+              Libraries
               <ul>
                 <li><span class="sidebar-text">React.js</span></li>
                 <li><span class="sidebar-text">Redux</span></li>
@@ -39,13 +39,12 @@
               </ul>
             </li>
             <li>
-              Технологии
+              Technologies
               <ul>
-                <!-- <li><span class="sidebar-text">Node.js</span></li> -->
                 <li><span class="sidebar-text">GraphQL</span></li>
                 <li><span class="sidebar-text">REST API</span></li>
-                <li><span class="sidebar-text">Firebase</span></li>
-                <li><span class="sidebar-text">SASS</span></li>
+                <li><span class="sidebar-text">Jest</span></li>
+                <li><span class="sidebar-text">React Testing Library</span></li>
                 <li>
                   <span class="sidebar-text">Responsive design</span>
                 </li>
@@ -82,14 +81,26 @@
         </div>
         <div class="contacts-container">
           <h3 class="sidebar-title">Contacts</h3>
-          <div>
-            <span class="contacts-symbols">C:</span
-            ><a class="contacts-link" href="380501340252">+38 050 134 02 52</a>
+          <div class="bootcamp">
+            <img class="contacts-symbols" src="./images/icons/phone.png" alt="phone number" />
+            <a class="contacts-link" href="tel:+380501340252">+380 50 134 02 52</a>
           </div>
-          <div>
-            <span class="contacts-symbols">M:</span
-            ><a class="contacts-link" href="mailto:shelukhin_g@ukr.net"
+          <div class="bootcamp">
+            <img class="contacts-symbols" src="./images/icons/mail.png" alt="email address" />
+            <a class="contacts-link" href="mailto:shelukhin_g@ukr.net"
               >shelukhin_g@ukr.net</a
+            >
+          </div>
+          <div class="bootcamp">
+            <img class="contacts-symbols" src="./images/icons/linkedin.png" alt="LinkedIn page" />
+            <a class="contacts-link" href="https://www.linkedin.com/in/gennadiy-shelukhin/" target="_blank"
+              >LinkedIn page</a
+            >
+          </div>
+          <div class="bootcamp">
+            <img class="contacts-symbols" src="./images/icons/github.png" alt="github page" />
+            <a class="contacts-link" href="https://github.com/gennadiy123" target="_blank"
+              >github.com/gennadiy123</a
             >
           </div>
         </div>
@@ -118,9 +129,9 @@
                 class="main-container-link"
                 target="_blank"
                 href="https://gennadiy123.github.io/aggresive_penguins/"
-                >https://gennadiy123.github.io/aggresive_penguins/</a
+                >gennadiy123.github.io/aggresive_penguins/</a
               >
-              <span class="dots">...</span>
+              <span class="dots">.................</span>
               <span
                 ><b>[</b>
                 <span class="main-container-link company"
@@ -138,9 +149,9 @@
                 class="main-container-link"
                 target="_blank"
                 href="https://gennadiy123.github.io/WeatherApp/"
-                >https://gennadiy123.github.io/WeatherApp/</a
+                >gennadiy123.github.io/WeatherApp/</a
               >
-              <span class="dots">........................</span>
+              <span class="dots">......................................</span>
               <span
                 ><b>[</b>
                 <span class="main-container-link company"
@@ -157,32 +168,14 @@
               <a
                 class="main-container-link"
                 target="_blank"
-                href="https://apps.apple.com/ru/app/kidhab-kids-habit-tracker/id1550279631"
-                >https://apps.apple.com/kidhab</a
+                href="https://play.google.com/store/apps/details?id=com.kidhab"
+                >play.google.com/kidhab</a
               >
-              <span class="dots">.........</span>
+              <span class="dots">.....................</span>
               <span
                 ><b>[</b>
                 <span class="main-container-link company"
                   >React Native, TypeScript, Apollo GraphQL</span
-                >
-                <b>]</b></span
-              >
-            </li>
-            <li class="project-item">
-              <h4>KidHab Landing</h4>
-              <p class="project-description">Mobile app landing page</p>
-              <a
-                class="main-container-link"
-                target="_blank"
-                href="https://www.kid-hab.com/"
-                >https://www.kid-hab.com/</a
-              >
-              <span class="dots">.............................</span>
-              <span
-                ><b>[</b>
-                <span class="main-container-link company"
-                  >Gatsby.js, styled-components, i18next</span
                 >
                 <b>]</b></span
               >
@@ -193,40 +186,47 @@
           <h3 class="main-container-title">Work Experience</h3>
           <div>
             <h4 class="profession-title">
-              Front-End Developer <span class="company">Go IT</span>
+              Software Engineer <span class="company">Softserve</span>
             </h4>
             <span class="profession-time">
-              June 2020 - Present
+              June 2021 - Present
               <span class="profession-divider">|</span> Ukraine
             </span>
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                Developed an app using React-Redux, TypeScript, GraphQL. Created
-                admin panel for this app using React and Material-UI. Also
-                create landing-page with Gatsby.js and styled-components.
+                Covered the code by unit tests.
               </li>
               <li class="profession-duties-item">
-                Teach students and create project`s backlog for them.
+                Implemented migrating a legacy code to modern technologies and made
+                refactoring.
+              </li>
+              <li class="profession-duties-item">
+                Developed new features, wrote documentation, made redesign of application and
+                debugged the code.
               </li>
             </ul>
           </div>
           <div>
             <h4 class="profession-title">
-              Commercial Director <span class="company">Duke LLC</span>
+              Front-End Developer <span class="company">Go IT</span>
             </h4>
             <span class="profession-time">
-              May 2014 - October 2019
+              June 2020 - June 2021
               <span class="profession-divider">|</span> Ukraine
             </span>
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                I builded successful social strategies that increase brand
-                awareness, promote customer engagement and ultimately drive web
-                traffic and conversions.
+                Implemented registration via QR-code, added a dark theme,
+                redesigned the settings page, created admin panel and landing
+                page for this application.
               </li>
               <li class="profession-duties-item">
-                Learned to run SMM and advertising campaigns on Google ads and
-                facebook.
+                Developed and debugged a mobile application with React Native
+                and React-Redux.
+              </li>
+              <li class="profession-duties-item">
+                Taught group of students React and created team project`s
+                backlog for them.
               </li>
             </ul>
           </div>
